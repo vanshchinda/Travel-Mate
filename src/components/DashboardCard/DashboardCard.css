@@ -1,0 +1,81 @@
+hr {
+  border: none;
+  border-top: 1px dashed #000000;
+  color: #000000;
+
+  height: 1px;
+  border-radius: 50%;
+}
+
+.dashCardContainer {
+  background-color: #e5e5f3;
+  min-width: 315px;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  padding: 1rem;
+}
+.top-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.dashCity {
+  font-size: 1.2rem;
+  margin: 0 10px 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.srcCity {
+  max-width: 100px;
+}
+.desCity {
+  max-width: 115px;
+}
+.dashDeleteIcon {
+  position: absolute;
+  right: 25px;
+  cursor: pointer;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+.date-container {
+  font-size: 1rem;
+  margin: 10px 10px 0;
+}
+.nop-container {
+  font-size: 1rem;
+  margin: 5px 10px 0;
+}
+
+.react-confirm-alert-button-group {
+  justify-content: flex-end !important;
+}
+.yesButton {
+  background-color: #001963 !important;
+  margin: 0 15px !important;
+}
+
+.noButton {
+  border: 1px solid #001963 !important;
+  color: #001963 !important;
+  background-color: transparent !important;
+}
+
+.react-confirm-alert-body {
+  font-weight: 500 !important;
+  color: black !important;
+}
+
+.react-confirm-alert-overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+@media screen and (max-width: 900px) {
+  .dashCardContainer {
+    margin: 10px auto;
+  }
+}

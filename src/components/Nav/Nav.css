@@ -1,0 +1,19 @@
+.navContainer {
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navMenu {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  color: #2b2c34;
+}

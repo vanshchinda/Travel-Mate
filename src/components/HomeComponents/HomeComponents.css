@@ -1,0 +1,22 @@
+.textfieldHead {
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  color: #2b2c34;
+  margin-bottom: 0.8rem;
+}
+
+.redText {
+  color: #e45858;
+}
+
+.mr {
+  /* margin-right: 15px !important; */
+}
+
+.pd-b {
+  padding-bottom: 2px !important;
+}
+
+.location-container {
+  width: 100%;
+}

@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.wrapper-container {
+  width: 32vw !important;
+  /* min-width: 20rem; */
+  float: left;
+  margin-left: 8rem !important;
+  padding: 10px 22px 20px;
+  border-radius: 10px;
+  background: #dfdff0;
+}
+
+.title {
+  font-family: Poppins, "sans-serif" !important;
+  font-size: 1.5rem !important;
+  color: #2b2c34 !important;
+  padding-top: 0.2rem;
+  margin-bottom: 0.4rem !important;
+  font-weight: 550 !important;
+  letter-spacing: 0.02rem !important;
+}
+
+.stack-item {
+  margin: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.textfieldHead {
+  font-size: 0.8rem !important;
+  font-family: Poppins, "sans-serif" !important;
+  color: #2b2c34 !important;
+  font-weight: 450 !important;
+  width: 10rem !important;
+  padding-top: 0.5rem !important;
+}
+
+input {
+  border: none;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+p {
+  margin-right: 0rem !important;
+  margin-bottom: 0.5rem;
+}
+
+.btns-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-req-btn {
+  width: 8rem !important;
+  display: inline-block !important;
+  background-color: #001963 !important;
+  color: #fff !important;
+  text-transform: inherit !important;
+  margin: 0.5rem !important;
+  border-radius: 0.5em !important;
+}
+
+.draft-btn {
+  width: 6rem !important;
+  display: inline-block !important;
+  background-color: #fff !important;
+  color: #2b2c34 !important;
+  text-transform: inherit !important;
+  margin: 0.5rem !important;
+  border-radius: 0.5em !important;
+}
+
+.num-input {
+  padding-left: 20px;
+  width: 185px;
+  height: 2.4rem;
+  margin-top: 0.4rem;
+  border: none;
+}
+
+.text__icon {
+  width: 35px;
+  height: 35px;
+  margin-top: 0.5rem;
+  border: none;
+  background-color: #dfdff0 !important;
+  cursor: pointer;
+}
+
+.description-field {
+  width: 270px !important;
+  height: 8rem !important;
+  border-radius: 0.2rem;
+}
+
+.react-datepicker-wrapper {
+  width: auto !important;
+}
+
+.date-wrap {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.icons {
+  width: 1.3rem;
+  transform: translateY(8px);
+  margin-left: 0.7rem !important;
+  margin-right: 0.5rem !important;
+}
+.location-wrap {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  width: 62%;
+}
+.pd-l {
+  padding-left: 2.8rem;
+}
+
+.no-text-wrap {
+  white-space: nowrap;
+}
+
+.css-1p5q5e5-MuiStack-root > :not(style) + :not(style) {
+  margin-top: 2rem !important;
+}
+
+/*Confirm alert popUp*/
+
+.react-confirm-alert-button-group {
+  justify-content: flex-end !important;
+}
+.yesButton {
+  background-color: #001963 !important;
+  margin: 0 15px !important;
+}
+
+.noButton {
+  border: 1px solid #001963 !important;
+  color: #001963 !important;
+  background-color: transparent !important;
+}
+
+.react-confirm-alert-body {
+  font-weight: 500 !important;
+  color: black !important;
+}
+
+.react-confirm-alert-overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+/* ////////// */
+
+@media screen and (max-width: 750px) {
+  .bg-container {
+    display: none;
+  }
+  .wave {
+    display: none;
+  }
+  .wrapper-container {
+    margin: auto !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper-container {
+    width: 19rem !important;
+    height: 560px;
+    margin-bottom: 2rem !important;
+    float: none;
+  }
+
+  .textfieldHead {
+    width: 7rem !important;
+    padding-right: 10px !important;
+  }
+  .input-field {
+    width: 50% !important;
+    height: auto !important;
+  }
+  .location-wrap {
+    width: 50%;
+  }
+  .num-input {
+    width: 70px;
+  }
+  .description-field {
+    width: 132px !important;
+    height: 5rem !important;
+    border-radius: 0.2rem;
+  }
+  .btns-wrapper {
+    justify-content: center;
+  }
+  .add-req-btn {
+    width: 7rem !important;
+  }
+  .img-placeholder {
+    width: 1.1rem;
+    height: auto;
+  }
+  .date-picker {
+    width: 130px;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    border: none;
+  }
+  .dataItem {
+    font-size: 0.9rem;
+    padding-left: 1.5rem;
+  }
+  .react-confirm-alert-body {
+    max-width: 300px;
+  }
+  .hide {
+    display: none;
+  }
+  .pd-l {
+    padding-left: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .wrapper-container {
+    width: 22rem !important;
+    height: 560px;
+    margin-left: 2rem !important;
+    margin-bottom: 2rem !important;
+    float: none;
+  }
+  .bg-container {
+    position: absolute;
+    right: -2rem;
+  }
+
+  .textfieldHead {
+    width: 7rem !important;
+    padding-right: 10px !important;
+  }
+  .input-field {
+    width: 60% !important;
+    height: auto !important;
+  }
+  .location-wrap {
+    width: 60%;
+  }
+  .num-input {
+    width: 110px;
+  }
+  .description-field {
+    width: 175px !important;
+    height: 5rem !important;
+    border-radius: 0.2rem;
+  }
+  .date-picker {
+    width: 135px;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    border: none;
+  }
+  .dataResult-source {
+    margin-left: 36.8%;
+    margin-top: 8.4rem;
+    width: 58.5%;
+  }
+  .dataResult-destination {
+    margin-left: 36.8%;
+    margin-top: 8.4rem;
+    width: 58.5%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .wrapper-container {
+    width: 25rem !important;
+    height: 560px;
+    margin-left: 6rem !important;
+    margin-bottom: 2rem !important;
+    float: none;
+  }
+  .bg-container {
+    position: absolute;
+    right: -2rem;
+  }
+
+  .textfieldHead {
+    width: 7rem !important;
+    padding-right: 10px !important;
+  }
+  .input-field {
+    width: 60% !important;
+    height: auto !important;
+  }
+  .location-wrap {
+    width: 60%;
+  }
+  .num-input {
+    width: 140px;
+  }
+  .description-field {
+    width: 206px !important;
+    height: 5rem !important;
+    border-radius: 0.2rem;
+  }
+  .date-picker {
+    width: 165px;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    border: none;
+  }
+  .dataResult-source {
+    margin-left: 31.8%;
+    margin-top: 8.4rem;
+    width: 59%;
+  }
+  .dataResult-destination {
+    margin-left: 31.8%;
+    margin-top: 8.4rem;
+    width: 59%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper-container {
+    height: 560px;
+  }
+  .input-field {
+    width: 62% !important;
+    height: auto !important;
+  }
+
+  .num-input {
+    width: 200px;
+  }
+  .description-field {
+    height: 6rem !important;
+    border-radius: 0.2rem;
+  }
+
+  .date-picker {
+    width: 230px;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    border: none;
+  }
+}

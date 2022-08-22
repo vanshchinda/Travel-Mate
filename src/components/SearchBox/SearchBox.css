@@ -1,0 +1,46 @@
+.input__wrapper {
+  display: flex;
+  width: 8.5rem;
+  margin-left: 1.5rem;
+  height: fit-content;
+  background: white;
+  border-radius: 10px;
+  padding: 0.4rem;
+}
+
+.text__icon {
+  display: grid;
+  place-items: center;
+  background: transparent !important;
+  padding-right: 8px;
+}
+
+.text__icon > img {
+  width: 20px;
+  height: 20px;
+}
+
+.dropdown__menu {
+  transition: 300ms;
+  background-color: white;
+  box-shadow: 5px 10px 12px -4px rgb(99, 99, 99);
+  list-style-type: none;
+  padding: 5px 10px;
+  width: 18.5%;
+  min-width: 200px;
+  margin-right: 0px;
+}
+
+.no__dropdown__menu {
+  display: none;
+}
+
+#dropdown {
+  position: absolute;
+  z-index: 10;
+}
+
+.dropdown__list {
+  cursor: pointer;
+  padding: 9px;
+}
